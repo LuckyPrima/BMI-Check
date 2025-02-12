@@ -62,14 +62,14 @@ const HomePage = () => {
           <div>
             <p className="mt-10 text-[44px] text-[#9E1C00]">What is BMI?</p>
             <p className="mt-[27px] max-w-[720px] text-[#213555] text-[20px]">
-              Body Mass Index (BMI) is a simple method to classify a person's
+              {`Body Mass Index (BMI) is a simple method to classify a person's
               weight based on their height and weight. BMI is used to determine
               whether a person has a healthy weight or not. By calculating BMI,
               a person can understand whether their weight is within the normal
               range or at risk. These risks can be related to health problems
               such as malnutrition, obesity, or other weight-related diseases.
               Therefore, understanding and monitoring BMI can help in
-              maintaining body balance and overall health.
+              maintaining body balance and overall health.`}
             </p>
             <img
               src="/images/assets_1.svg"
@@ -117,11 +117,11 @@ const HomePage = () => {
         <div className="">
           <h2 className="text-[44px] text-[#9E1C00]">Get Started</h2>
           <p className="text-[20px] pt-[27px] text-[#213555] md:max-w-[1254px]">
-            Calculate Your BMI Now! Enter the following data to find out your
+            {`Calculate Your BMI Now! Enter the following data to find out your
             weight category, namely weight, height, and gender. With this
             information, you can find out whether your weight is in the healthy
             or risky category, so you can take the right steps to maintain your
-            body's health.
+            body's health.`}
           </p>
           <div className="">
             <InputField />
@@ -140,14 +140,14 @@ const HomePage = () => {
 
           <div className="flex text-[10px]">
             <p>
-              *Note : The BMI Classification App uses a neural network model to
+              {`*Note : The BMI Classification App uses a neural network model to
               estimate and classify your Body Mass Index/BMI based on height,
               weight, and gender data. However, these results are based on
               general statistical trends and may not accurately reflect your
               health status. The app's creators are not responsible for any
               decisions made based on the results and advise users to consult
               with a qualified healthcare provider for personalized advice and
-              guidance.
+              guidance.`}
             </p>
           </div>
         </div>
