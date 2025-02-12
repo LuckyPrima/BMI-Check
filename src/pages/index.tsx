@@ -16,13 +16,13 @@ const HomePage = () => {
   return (
     <div className="font-(family-Inter:<custom-property>)">
       {/* Navbar */}
-      <nav className="fixed md:max-xl:flex top-5 right-5 left-5 bg-[#D14C30] text-white p-3 shadow-lg z-50 rounded-full backdrop-blur-md">
+      <nav className="fixed top-5 right-5 left-5 bg-[#D14C30] text-white p-3 shadow-lg z-50 rounded-full backdrop-blur-md">
         <div className="mx-auto flex justify-between items-center px-4">
           <div className="flex items-center space-x-2">
             <img src="/images/Logo.svg" alt="Logo" className="w-16 h-16" />
             <span className="text-lg font-bold">BodyCheck </span>
           </div>
-          <div className="space-x-6">
+          <div className="hidden lg:block space-x-6">
             <a href="#home" className="hover:text-[#771500]">
               Home
             </a>
@@ -33,6 +33,7 @@ const HomePage = () => {
               Get Started
             </a>
           </div>
+          <div className="block lg:hidden">c</div>
         </div>
       </nav>
 
@@ -60,7 +61,9 @@ const HomePage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* Column Left */}
           <div>
-            <p className="mt-10 text-[44px] text-[#9E1C00]">What is BMI?</p>
+            <p className="mt-10 lg:text-[44px] text-[#9E1C00] text-xs">
+              What is BMI?
+            </p>
             <p className="mt-[27px] max-w-[720px] text-[#213555] text-[20px]">
               {`Body Mass Index (BMI) is a simple method to classify a person's
               weight based on their height and weight. BMI is used to determine
