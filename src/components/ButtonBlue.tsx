@@ -9,7 +9,7 @@ const ButtonBlue = ({ text }: { text: string }) => {
       onMouseDown={() => setIsClicked(true)}
       onMouseUp={() => setIsClicked(false)}
       className={`
-            px-5 py-2 text-[20px] font-semibold rounded-full transition-all w-[217px] h-[44px]
+            px-5 py-2 lg:text-[20px] text-sm lg:w-[217px] w-sm font-semibold rounded-full transition-all  
             ${
               isClicked
                 ? "bg-[#9BACC7] text-[#0E1E3D]"

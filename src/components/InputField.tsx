@@ -8,7 +8,7 @@ const BMIInputFields = () => {
 
   return (
     <div className="flex flex-col gap-3 mt-5">
-      <div className="flex items-center lg:w-[388px] w-full p-3 bg-[#FBE9E2] border border-gray-400 rounded-full">
+      <div className="flex lg:text-xl text-sm items-center lg:w-[388px] w-full p-3 bg-[#FBE9E2] border border-gray-400 rounded-full">
         <FaWeight className="text-gray-500 mr-3" />
         <input
           type="number"
@@ -20,7 +20,7 @@ const BMIInputFields = () => {
         />
       </div>
 
-      <div className="flex items-center lg:w-[388px] w-full p-3 bg-[#FBE9E2] border border-gray-400 rounded-full">
+      <div className="flex lg:text-xl text-sm items-center lg:w-[388px] w-full p-3 bg-[#FBE9E2] border border-gray-400 rounded-full">
         <FaRulerVertical className="text-gray-500 mr-3" />
         <input
           type="number"
@@ -32,7 +32,7 @@ const BMIInputFields = () => {
         />
       </div>
 
-      <div className="flex items-center lg:w-[388px] w-full p-3 bg-[#FBE9E2] border border-gray-400 rounded-full">
+      <div className="flex lg:text-xl text-sm items-center lg:w-[388px] w-full p-3 bg-[#FBE9E2] border border-gray-400 rounded-full">
         <FaVenusMars className="text-gray-500 mr-3" />
         <select
           className="bg-transparent outline-none w-full text-gray-600"

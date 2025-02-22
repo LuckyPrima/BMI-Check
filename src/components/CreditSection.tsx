@@ -26,7 +26,7 @@ const CreditSection = () => {
             key={index}
             className="flex items-center justify-between w-80 p-3"
           >
-            <span className="text-[16px]">{person.name}</span>
+            <span className="lg:text-[16px] text-sm">{person.name}</span>
             <div className="flex gap-2">
               <a
                 href={person.linkedin}
