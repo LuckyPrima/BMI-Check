@@ -51,7 +51,7 @@ const HomePage = () => {
         <h1 className="lg:text-[60px] text-2xl font-bold">
           Check Your BMI Now!
         </h1>
-        <p className="lg:text-[28px] text-sm pt-5 pb-5">
+        <p className="lg:text-[28px] text-sm pt-5 pb-5 lg:leading-8">
           Find out if your weight is ideal or needs more attention. Enter your
           height, weight, and gender to see your BMI category now!
         </p>
@@ -66,7 +66,7 @@ const HomePage = () => {
             <p className="mt-10 lg:text-[44px] text-2xl text-[#9E1C00]">
               What is BMI?
             </p>
-            <p className="mt-[27px] max-w-[720px] text-[#213555] lg:text-[20px] text-sm">
+            <p className="mt-[27px] max-w-[720px] text-[#213555] lg:text-[20px] text-sm lg:leading-8">
               {`Body Mass Index (BMI) is a simple method to classify a person's
               weight based on their height and weight. BMI is used to determine
               whether a person has a healthy weight or not. By calculating BMI,
@@ -123,7 +123,7 @@ const HomePage = () => {
           <h2 className="lg:text-[44px] text-2xl text-[#9E1C00]">
             Get Started
           </h2>
-          <p className="lg:text-[20px] text-sm pt-[27px] text-[#213555] md:max-w-[1254px]">
+          <p className="lg:text-[20px] text-sm pt-[27px] text-[#213555] md:max-w-[1254px] lg:leading-8">
             {`Calculate Your BMI Now! Enter the following data to find out your
             weight category, namely weight, height, and gender. With this
             information, you can find out whether your weight is in the healthy
@@ -136,7 +136,7 @@ const HomePage = () => {
           <div className="mt-[26px]">
             <ButtonCheck text="Check BMI Results" />
           </div>
-          <div className="lg:text-[20px] text-sm pt-[27px] text-[#213555] md:max-w-[876px]">
+          <div className="lg:text-[20px] text-sm pt-[27px] text-[#213555] md:max-w-[876px] lg:leading-8">
             Based on the data you entered, you fall into the [BMI category]
             category. Maintain a healthy lifestyle and consult a nutritionist if
             necessary!
@@ -145,7 +145,7 @@ const HomePage = () => {
             <img src="/images/BMI-Extremly Obesity-Women.svg" alt="BMI Meter" />
           </div>
 
-          <div className="flex lg:text-[16px] text-[10px]">
+          <div className="flex lg:text-[16px] text-[10px] lg:leading-6">
             <p>
               {`*Note : The BMI Classification App uses a neural network model to
               estimate and classify your Body Mass Index/BMI based on height,

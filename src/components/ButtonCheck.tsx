@@ -9,7 +9,7 @@ const ButtonCheck = ({ text }: { text: string }) => {
       onMouseDown={() => setIsClicked(true)}
       onMouseUp={() => setIsClicked(false)}
       className={`
-            px-5 py-2 lg:text-[20px] text-sm font-semibold rounded-full transition-all w-[217px] lg:h-[44px] w-full
+            px-5 py-2 lg:text-[20px] text-sm font-semibold rounded-full transition-all lg:w-[217px] w-full
             ${
               isClicked
                 ? "bg-[#F4C9BF] text-[#1A2A44]"
