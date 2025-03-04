@@ -1,4 +1,3 @@
-import { div } from "framer-motion/client";
 import { useState } from "react";
 import { BiLoader } from "react-icons/bi";
 import { FaWeight, FaRulerVertical, FaVenusMars } from "react-icons/fa";
