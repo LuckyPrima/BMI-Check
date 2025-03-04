@@ -67,7 +67,13 @@ function ToDoList() {
           </button>
         </div>
 
-        <ul className="overflow-y-scroll overflow-y-hidden max-h-[600px] pt-5">
+        <ul
+          className={`pt-5 ${
+            tasks.length > 0
+              ? "overflow-y-scroll max-h-[600px]"
+              : "overflow-y-hidden"
+          }`}
+        >
           {tasks.map((task, index) => (
             <li
               className="border-b-2 border-[#EAEAEA] w-full p-2 flex justify-between items-center text-[#F1F0E9]"

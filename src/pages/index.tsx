@@ -1,4 +1,3 @@
-import ButtonBlue from "@/components/ButtonBlue";
 import ButtonCheck from "@/components/ButtonCheck";
 import InputField from "@/components/InputField";
 import CreditSection from "@/components/CreditSection";
@@ -55,7 +54,9 @@ const HomePage = () => {
           Find out if your weight is ideal or needs more attention. Enter your
           height, weight, and gender to see your BMI category now!
         </p>
-        <ButtonBlue text="Get Started" />
+        <button className="px-5 py-2 lg:text-[20px] text-sm lg:w-[217px] w-sm font-semibold rounded-full transition-all bg-[#9CB6DB] text-[#0E1E3D] hover:bg-[#7D8EAB] hover:text-[#0E1E3D]">
+          <a href="#get-started">Get Started</a>
+        </button>
       </header>
 
       {/* About BMI Section */}
@@ -107,7 +108,9 @@ const HomePage = () => {
                 Do you want to know which category you belong to?
               </div>
               <div className="pt-5 pl-5">
-                <ButtonBlue text="Get Started" />
+                <button className="px-5 py-2 lg:text-[20px] text-sm lg:w-[217px] w-sm font-semibold rounded-full transition-all bg-[#9CB6DB] text-[#0E1E3D] hover:bg-[#7D8EAB] hover:text-[#0E1E3D]">
+                  <a href="#get-started">Get Started</a>
+                </button>
               </div>
             </div>
           </div>
@@ -133,19 +136,8 @@ const HomePage = () => {
           <div className="">
             <InputField />
           </div>
-          <div className="mt-[26px]">
-            <ButtonCheck text="Check BMI Results" />
-          </div>
-          <div className="lg:text-[20px] text-sm pt-[27px] text-[#213555] md:max-w-[876px] lg:leading-8">
-            Based on the data you entered, you fall into the [BMI category]
-            category. Maintain a healthy lifestyle and consult a nutritionist if
-            necessary!
-          </div>
-          <div className="flex place-content-center pt-[50px]">
-            <img src="/images/BMI-Extremly Obesity-Women.svg" alt="BMI Meter" />
-          </div>
 
-          <div className="flex lg:text-[16px] text-[10px] lg:leading-6">
+          <div className="flex lg:text-[16px] text-[10px] lg:leading-6 pt-5">
             <p>
               {`*Note : The BMI Classification App uses a neural network model to
               estimate and classify your Body Mass Index/BMI based on height,
