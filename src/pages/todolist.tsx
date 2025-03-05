@@ -48,9 +48,9 @@ function ToDoList() {
           To Do List
         </h1>
 
-        <div className="inline-block pr-4 pt-4">
+        <div className="mt-5 flex flex-row gap-5">
           <input
-            className="border-solid border-2 border-[#A1E3F9] lg:w-[330px] md:w-[560px] w-[180px] bg-[#F1F0E9]"
+            className="w-full border-2 border-solid border-[#A1E3F9] bg-[#F1F0E9]"
             type="text"
             placeholder="Enter a task ..."
             value={newTask}
@@ -58,11 +58,8 @@ function ToDoList() {
               handleInputChange(e)
             }
           />
-        </div>
-
-        <div className="inline-block">
           <button
-            className="bg-[#1F509A] hover:bg-[#0A3981] p-1 rounded-xl md:text-lg text-base text-[#F1F0E9]"
+            className="text-nowrap rounded-xl bg-[#1F509A] p-1 text-base text-[#F1F0E9] hover:bg-[#0A3981] md:text-lg"
             onClick={addTask}
           >
             Add Task
