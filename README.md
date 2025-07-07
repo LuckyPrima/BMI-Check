@@ -2,7 +2,7 @@
 
 # BMI-Check
 
-This repository contains a simple **BMI (Body Mass Index) Calculator** application. It allows users to input their height and weight, and then calculates and displays their BMI, along with a classification of their weight status.
+This repository contains a simple [BMI (Body Mass Index) Calculator](https://bmi.luckyprima.site) application. It allows users to input their height and weight, and then calculates and displays their BMI, along with a classification of their weight status.
 
 ## 🚀 Overview
 
